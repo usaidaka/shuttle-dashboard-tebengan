@@ -46,7 +46,7 @@ function Root() {
       <Navbar />
       <div className="flex">
         <Sidebar />
-        <div className="m-[16px] bg-white w-full h-[1403px] p-[16px] rounded-md">
+        <div className="m-[16px] bg-white w-screen min-w-min h-full p-[16px] rounded-md">
           <Outlet />
         </div>
       </div>

@@ -25,7 +25,7 @@ const Button = ({ children, color, disabled }: Button) => {
 
   return (
     <button
-      className={`w-fit px-[16px] py-[8px] rounded-[8px] font-bold ${style}`}
+      className={`w-fit px-[16px] py-[8px] rounded-[8px] font-bold text-sm ${style}`}
       disabled={disabled}
     >
       {children}

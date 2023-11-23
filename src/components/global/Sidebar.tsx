@@ -7,8 +7,8 @@ const Sidebar = () => {
   const location = useLocation();
 
   return (
-    <div>
-      <div className="sticky top-[80px] w-[240px] bg-white h-screen p-[16px] gap-[8px] space-y-[8px]">
+    <div className=" min-h-screen bg-white ">
+      <div className="sticky top-[80px] w-[240px] bg-white p-[16px] gap-[8px] space-y-[8px]">
         {Menus.map((menu: Menu, idx) => (
           <Link
             to={menu.to}

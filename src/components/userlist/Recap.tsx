@@ -1,10 +1,11 @@
 import { Recaps } from "../../utils/data";
 import Button from "../global/Button";
 import { IoMdAdd } from "react-icons/io";
+import Modal from "../global/Modal";
 
 const Recap = () => {
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex justify-between items-center text-sm">
       <div className="flex gap-4">
         {Recaps.map((recap, idx) => (
           <div key={idx} className="border-l-2 border-black px-2">
@@ -19,6 +20,7 @@ const Recap = () => {
           Add New User
         </span>
       </Button>
+      <Modal />
     </div>
   );
 };

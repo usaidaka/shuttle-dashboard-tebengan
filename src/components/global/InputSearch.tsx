@@ -11,7 +11,7 @@ const InputSearch = () => {
   };
 
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between text-sm">
       <div className="overflow-hidden flex justify-center items-center focus-within:border-cyan-600 focus-within:ring-cyan-600 rounded-lg border-2 w-[332px]">
         <form action="" className="flex items-center w-full">
           <input
