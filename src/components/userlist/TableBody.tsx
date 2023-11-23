@@ -89,7 +89,7 @@ const TableBody = ({ tBody }: { tBody: UserData[] | undefined }) => {
             </div>
           </td>
           <td className="p-4 space-y-2">
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 gap-4">
               <div className="col-span-1 space-y-2">
                 <div>
                   <p className="text-[#747474]">Home</p>

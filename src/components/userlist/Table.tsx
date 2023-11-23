@@ -1,9 +1,9 @@
-import { Table } from "../../utils/definition.tsx";
+import { Tables } from "../../utils/definition.tsx";
 import loadingGif from "../../assets/loading.gif";
 import TableHead from "./TableHead.tsx";
 import TableBody from "./TableBody.tsx";
 
-const Table = ({ table, tHead, tBody, loading }: Table) => {
+const Table = ({ table, tHead, tBody, loading }: Tables) => {
   let tableHead;
   let tableBody;
   switch (table) {

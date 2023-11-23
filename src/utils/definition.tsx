@@ -62,7 +62,7 @@ export type UserData = {
 };
 
 /* TABLE */
-export type Table = {
+export type Tables = {
   table: string;
   tHead: string[];
   tBody: UserData[] | undefined;
