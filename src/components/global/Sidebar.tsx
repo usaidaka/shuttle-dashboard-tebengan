@@ -22,7 +22,7 @@ const Sidebar = () => {
             )}
           >
             <span className="text-xl">{menu.icon}</span>
-            <span className="">{menu.title}</span>
+            <span>{menu.title}</span>
           </Link>
         ))}
       </div>
