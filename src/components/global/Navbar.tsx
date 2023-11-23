@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import tebenganHead from "../../assets/tebenganLogoDashboard.png";
 import { Menus } from "../../utils/data";
 import { Menu } from "../../utils/definition";
@@ -15,9 +15,9 @@ const Navbar = () => {
   const location = useLocation();
   return (
     <div className="sticky top-0 w-full bg-blue-500 h-[80px] grid grid-cols-12">
-      <div className="col-span-2 flex justify-center items-center">
+      <Link to="/" className="col-span-2 flex justify-center items-center">
         <img src={tebenganHead} alt="tebengan head" className="h-[44px]" />
-      </div>
+      </Link>
       <div className="col-span-10 flex justify-between items-center">
         {Menus.map(
           (menu: Menu, idx) =>

@@ -1,7 +1,8 @@
 import { Recaps } from "../../utils/data";
-import Button from "../global/Button";
 import { IoMdAdd } from "react-icons/io";
+
 import Modal from "../global/Modal";
+import ModalAddNewUser from "./ModalAddNewUser";
 
 const Recap = () => {
   return (
@@ -14,13 +15,17 @@ const Recap = () => {
           </div>
         ))}
       </div>
-      <Button color="add">
-        <span className="flex items-center justify-center gap-1">
-          <IoMdAdd />
-          Add New User
-        </span>
-      </Button>
-      <Modal />
+      <Modal
+        open={
+          <span className="flex items-center justify-center gap-1">
+            <IoMdAdd />
+            Add New User
+          </span>
+        }
+        text="Add New User"
+      >
+        <ModalAddNewUser />
+      </Modal>
     </div>
   );
 };

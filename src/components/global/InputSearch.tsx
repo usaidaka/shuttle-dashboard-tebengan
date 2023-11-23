@@ -1,6 +1,5 @@
 import React from "react";
 import { IoIosSearch } from "react-icons/io";
-import Button from "./Button";
 
 const InputSearch = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -30,12 +29,6 @@ const InputSearch = () => {
             <IoIosSearch className="text-2xl" />
           </button>
         </form>
-      </div>
-      <div className="flex gap-[8px]">
-        <Button color="disabled" disabled={true}>
-          Export
-        </Button>
-        <Button color="add">Export All Data</Button>
       </div>
     </div>
   );
