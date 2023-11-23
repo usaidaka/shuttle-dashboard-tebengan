@@ -23,13 +23,13 @@ const Modal = ({
         {open}
       </Button>
       {modal && (
-        <div className="w-screen h-screen top-0 left-0 right-0 bottom-0 fixed">
+        <div className="w-screen h-screen top-0 left-0 right-0 bottom-0 fixed z-50">
           <div
             onClick={toggleModal}
             className="w-screen h-screen top-0 left-0 right-0 bottom-0 fixed bg-[rgba(49,49,49,0.8)]"
           />
 
-          <div className="absolute text-xs top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#f1f1f1] p-[14px 28px] rounded-[3px] max-w-[600px] min-w-[300px]">
+          <div className="absolute text-xs top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-[14px 28px] rounded-[3px] max-w-[600px] min-w-[300px]">
             <div className="flex justify-between px-[24px] py-[16px]">
               <p className="font-semibold">{text}</p>
               <button className="" onClick={toggleModal}>

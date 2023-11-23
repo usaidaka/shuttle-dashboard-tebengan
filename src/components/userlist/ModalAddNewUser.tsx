@@ -72,7 +72,7 @@ const ModalAddNewUser = () => {
         <div className="space-y-2">
           <h4 className="font-semibold mt-2">Home Details</h4>
           <InputForm label="Home Address" placeholder="Search home address" />
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 gap-2">
             <TimePicker label="Arrival Time" placeholder="Select Time" />
             <TimePicker label="Depart Time" placeholder="Select Time" />
           </div>

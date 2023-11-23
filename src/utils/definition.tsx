@@ -60,3 +60,11 @@ export type UserData = {
   Trip: string;
   Voucher: Voucher[];
 };
+
+/* TABLE */
+export type Table = {
+  table: string;
+  tHead: string[];
+  tBody: UserData[] | undefined;
+  loading: boolean;
+};
