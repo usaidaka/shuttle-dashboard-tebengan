@@ -1,5 +1,3 @@
-import React from "react";
-
 type Button = {
   children: React.ReactNode;
   color: string;

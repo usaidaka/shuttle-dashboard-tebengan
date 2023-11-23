@@ -1,5 +1,3 @@
-import React from "react";
-
 type InputRadio = {
   label: string;
   name: string;

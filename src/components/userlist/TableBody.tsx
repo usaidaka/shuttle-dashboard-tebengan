@@ -1,4 +1,3 @@
-import React from "react";
 import clsx from "clsx";
 import { MdOutlineMonitor } from "react-icons/md";
 import { FaMobileAlt } from "react-icons/fa";
